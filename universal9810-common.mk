@@ -34,12 +34,6 @@ PRODUCT_PACKAGES += \
     init.baseband.rc \
     ueventd.samsungexynos9810.rc
 
-# Treble
-PRODUCT_FULL_TREBLE_OVERRIDE := true
-
-# VNDK
-PRODUCT_PACKAGES += vndk_package
-
 # SP-NDK
 PRODUCT_PACKAGES += \
     libvulkan
